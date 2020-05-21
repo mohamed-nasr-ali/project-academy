@@ -218,12 +218,12 @@
             "version": "4.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ivanakimov/hashids.php.git",
+                "url": "https://github.com/vinkla/hashids.git",
                 "reference": "43bb2407f16a631f0128f47bcb67ff986c63dde2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ivanakimov/hashids.php/zipball/43bb2407f16a631f0128f47bcb67ff986c63dde2",
+                "url": "https://api.github.com/repos/vinkla/hashids/zipball/43bb2407f16a631f0128f47bcb67ff986c63dde2",
                 "reference": "43bb2407f16a631f0128f47bcb67ff986c63dde2",
                 "shasum": ""
             },
@@ -320,6 +320,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -366,6 +367,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -699,25 +701,25 @@
         },
         {
             "name": "mcamara/laravel-localization",
-            "version": "1.3.19",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcamara/laravel-localization.git",
-                "reference": "cf89d2515d576292e65bfa5893a0efd1cc5a4064"
+                "reference": "13a51715f8e066b0bfb637fd9065d7496c3579ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/cf89d2515d576292e65bfa5893a0efd1cc5a4064",
-                "reference": "cf89d2515d576292e65bfa5893a0efd1cc5a4064",
+                "url": "https://api.github.com/repos/mcamara/laravel-localization/zipball/13a51715f8e066b0bfb637fd9065d7496c3579ec",
+                "reference": "13a51715f8e066b0bfb637fd9065d7496c3579ec",
                 "shasum": ""
             },
             "require": {
-                "laravel/framework": "~5.2.0||~5.3.0||~5.4.0||~5.5.0||~5.6.0||~5.7.0||~5.8.0",
-                "php": ">=7.0.0"
+                "laravel/framework": "~5.2.0||~5.3.0||~5.4.0||~5.5.0||~5.6.0||~5.7.0||~5.8.0||^6.0||^7.0",
+                "php": ">=7.1.0"
             },
             "require-dev": {
-                "orchestra/testbench-browser-kit": "~3.4|~3.8",
-                "phpunit/phpunit": "6.0.*|8.0.*"
+                "orchestra/testbench-browser-kit": "~3.4|~3.8|~4.0",
+                "phpunit/phpunit": "6.0.*|^8.0"
             },
             "suggest": {
                 "ext-intl": "*"
@@ -757,7 +759,7 @@
                 "localization",
                 "php"
             ],
-            "time": "2019-03-05T15:37:01+00:00"
+            "time": "2020-03-05T15:19:05+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -879,6 +881,7 @@
                 "cron",
                 "schedule"
             ],
+            "abandoned": "dragonmantank/cron-expression",
             "time": "2017-01-23T04:29:33+00:00"
         },
         {
@@ -1220,17 +1223,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -1777,7 +1780,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
