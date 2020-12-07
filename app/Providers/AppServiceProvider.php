@@ -25,6 +25,7 @@ class AppServiceProvider extends ServiceProvider
      * $views       -> all views*/
     public function boot()
     {
+
 //        $categorz=Category::all();
 //        $categories=Category::latest()->paginate(5);
 //        $semesters=Semester::all();
