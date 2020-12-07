@@ -25,18 +25,18 @@ class AppServiceProvider extends ServiceProvider
      * $views       -> all views*/
     public function boot()
     {
-        $categorz=Category::all();
-        $categories=Category::latest()->paginate(5);
-        $semesters=Semester::all();
-        $types=Type::all();
-        $contacts=Contactus::all();
-        $views=Post::where('status',1)->latest()->paginate(6);
-        view()->share(['categorz'=>$categorz]);
-        view()->share(['categories'=>$categories]);
-        view()->share(['semesters'=>$semesters]);
-        view()->share(['types'=>$types]);
-        view()->share(['contacts'=>$contacts]);
-        view()->share(['views'=>$views]);
+//        $categorz=Category::all();
+//        $categories=Category::latest()->paginate(5);
+//        $semesters=Semester::all();
+//        $types=Type::all();
+//        $contacts=Contactus::all();
+//        $views=Post::where('status',1)->latest()->paginate(6);
+//        view()->share(['categorz'=>$categorz]);
+//        view()->share(['categories'=>$categories]);
+//        view()->share(['semesters'=>$semesters]);
+//        view()->share(['types'=>$types]);
+//        view()->share(['contacts'=>$contacts]);
+//        view()->share(['views'=>$views]);
 
     }
 
