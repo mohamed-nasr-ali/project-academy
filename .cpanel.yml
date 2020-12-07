@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - "php artisan key:generate"
+    - php artisan key:generate
 
